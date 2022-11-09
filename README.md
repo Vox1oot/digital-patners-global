@@ -7,3 +7,5 @@ instructions
 ```$ make install``` - establish dependencies
 
 ```$ make start``` - start devServer
+
+```$ make build``` - build project
