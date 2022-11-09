@@ -1,0 +1,95 @@
+body {
+  color: #FFFFFF;
+}
+
+.form-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 389px;
+  top: 181px;
+  background-color: #171929;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.7);
+  border-radius: 27px;
+}
+
+.form-header {
+  text-align: center;
+  width: 238px;
+  height: 44px;
+}
+
+.labels {
+  color: #797EA3;
+}
+
+.input {
+  background: #171929;
+  border-radius: 0;
+  border: 0 0 0 1px;
+}
+
+input {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form-control {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color:transparent;
+  cursor:default;
+  color: white;
+  border-bottom: 1px solid #3F4363;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color:transparent;
+  cursor:default;
+  color: white;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+[type="checkbox"] {
+  width: 31px;
+  height: 31px;
+  border: 0;
+}
+
+[type="checkbox"]:checked {
+  background: #2C2F47;
+  border: 0;
+}
+
+.form-check-label {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.btn {
+  background: #2C2F47;
+  border-radius: 28px;
+  width: 121px;
+  height: 44px;
+  border: 0;
+}
+
+a {
+  color: #B9BEE5;
+}
+
+span {
+  vertical-align: middle;
+}
