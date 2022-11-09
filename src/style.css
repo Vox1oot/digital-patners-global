@@ -98,3 +98,13 @@ span {
   border-bottom: 1px solid #c63242;
 }
 
+@media (max-width: 400px) {
+  .form-container {
+    width: auto;
+  }
+
+  .form-header {
+    width: 75%;
+  }
+}
+
