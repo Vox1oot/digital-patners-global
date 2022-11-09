@@ -7,6 +7,7 @@ import MainForm from './components/Form';
 const App = () => {
   return (
     <div className="App">
+      <h1 className='text-center'>Hello</h1>
       <MainForm />
     </div>
   );

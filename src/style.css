@@ -1,5 +1,10 @@
 body {
+  background-image: url('../public/Images/bg.jpg');
   color: #FFFFFF;
+}
+
+h1 {
+  font-size: 55px;
 }
 
 .form-container {
@@ -23,12 +28,6 @@ body {
   color: #797EA3;
 }
 
-/* .input {
-  background: #171929;
-  border-radius: 0;
-  border: 0 0 0 1px;
-}
- */
 input {
   outline: none;
   border: 1px solid black;
@@ -98,3 +97,4 @@ span {
   box-shadow: none;
   border-bottom: 1px solid #c63242;
 }
+
