@@ -9,3 +9,5 @@ instructions
 ```$ make start``` - start devServer
 
 ```$ make build``` - build project
+
+### Go to App -> https://digital-patners-global.vercel.app/
