@@ -12,16 +12,13 @@ const MainForm = () => {
       phone: '',
       subject: '',
       message: '',
+      checkbox: false,
     },
     validationSchema: schema,
     onSubmit: () => {
 
     }
-
   });
-
-  console.log(errors);
-  console.log(isValid);
 
   return (
     <Form className="form-container p-5" onSubmit={handleSubmit}>
@@ -32,6 +29,7 @@ const MainForm = () => {
       <Form.Group className="mb-3 labels" controlId="name" >
         <Form.Label>Name*</Form.Label>
         <Form.Control
+          className={errors.name && 'is-invalid'}
           type="text"
           value={values.name} 
           onChange={handleChange} 
@@ -43,6 +41,7 @@ const MainForm = () => {
       <Form.Group className="mb-3 labels" controlId="company" >
         <Form.Label>Company*</Form.Label>
         <Form.Control
+          className={errors.company && 'is-invalid'}
           type="text"
           value={values.company} 
           onChange={handleChange}
@@ -53,6 +52,7 @@ const MainForm = () => {
       <Form.Group className="mb-3 labels" controlId="email" >
         <Form.Label>E-mail*</Form.Label>
         <Form.Control
+          className={errors.email && 'is-invalid'}
           type="email"
           value={values.email} 
           onChange={handleChange} 
@@ -81,6 +81,7 @@ const MainForm = () => {
       <Form.Group className="mb-3 labels" controlId="message" required>
         <Form.Label>Message*</Form.Label>
         <Form.Control
+          className={errors.message && 'is-invalid'}
           type="text"
           value={values.message}
           autoComplete="off"
@@ -89,6 +90,8 @@ const MainForm = () => {
 
       <Form.Group className="mb-3 labels" controlId="checkbox">
         <Form.Check 
+          checked={values.checkbox}
+          onChange={handleChange}
           className="d-flex"
           type="checkbox" 
           label={
