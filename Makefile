@@ -1,6 +1,6 @@
 install:
 	npm ci
 
-start
+start:
 	npm start
 	

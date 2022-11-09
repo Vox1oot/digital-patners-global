@@ -27,8 +27,8 @@ body {
   background: #171929;
   border-radius: 0;
   border: 0 0 0 1px;
-} */
-
+}
+ */
 input {
   outline: none;
   border: 1px solid black;
@@ -94,7 +94,7 @@ span {
   vertical-align: middle;
 }
 
-.is-invalid:focus {
+.form-control.is-invalid:focus {
   box-shadow: none;
   border-bottom: 1px solid #c63242;
 }
